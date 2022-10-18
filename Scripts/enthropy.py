@@ -4,7 +4,7 @@ zeros=0
 ones=0
 lenf=0
 
-with open("original.jpg", "rb") as f:
+with open("method2.exe.enc", "rb") as f:
     byte = f.read(1)
     while byte != b"":
         byte=bin(int(byte.hex(),base=16))[2:].zfill(8)
